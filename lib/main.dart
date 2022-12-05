@@ -1,4 +1,6 @@
 import 'package:dorant/screens/home_screen.dart';
+import 'package:dorant/screens/new_order_screen.dart';
+import 'package:dorant/screens/order_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -26,6 +28,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const HomeScreen(),
+      routes: {
+        OrderScreen.routeName: (ctx) => const OrderScreen(),
+        NewOrderScreen.routeName: (ctx) => const NewOrderScreen(),
+      },
     );
   }
 }
