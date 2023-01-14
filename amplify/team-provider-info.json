@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dorant-dev-233313-authRole",
+      "UnauthRoleArn": "arn:aws:iam::148157348401:role/amplify-dorant-dev-233313-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::148157348401:role/amplify-dorant-dev-233313-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-dorant-dev-233313-deployment",
+      "UnauthRoleName": "amplify-dorant-dev-233313-unauthRole",
+      "StackName": "amplify-dorant-dev-233313",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:148157348401:stack/amplify-dorant-dev-233313/84c58670-74ba-11ed-bd1f-06e22011a406",
+      "AmplifyAppId": "devhxjfy8i2yi"
+    },
+    "categories": {
+      "auth": {
+        "dorant": {}
+      },
+      "api": {
+        "dorant": {}
+      }
+    }
+  }
+}
